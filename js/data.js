@@ -164,7 +164,8 @@ window.SITE_DATA = {
       { "src": "assets/school-bus.jpg", "caption": "Our school bus service" },
       { "src": "assets/proprietor-2.jpg", "caption": "Our proprietor addressing a gathering" },
       { "src": "assets/proprietor-1.jpg", "caption": "The founder of CPF College Complex" },
-      { "src": "assets/crest.png", "caption": "The CPF crest" },
+      { "src": "assets/crest.png", "caption": "The CPF crest" }, 
+      { "src": "assets/images (4).jpg", "caption": "Culture Day" }, 
     ],
   },
 
