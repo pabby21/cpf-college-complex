@@ -146,7 +146,7 @@ window.SITE_DATA = {
   /* ---------- PROPRIETOR'S MESSAGE ----------
      Replace "name" with the founder/proprietor's real name and title. */
   proprietor: {
-    name: "Name of Proprietor",           // ⚠ EDIT: put the proprietor's name here
+    name: "Dr. Eric Ntiamoah Mensah",           // ⚠ EDIT: put the proprietor's name here
     title: "Founder & Proprietor",
     photo: "assets/proprietor-1.jpg",
     message:
