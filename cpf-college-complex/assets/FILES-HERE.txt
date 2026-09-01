@@ -1,0 +1,9 @@
+This folder holds the website's images:
+
+  crest.png         — school crest (from Downloads\0010540-crest.png)
+  proprietor-1.jpg  — founder portrait (from Downloads\images.jpg)
+  proprietor-2.jpg  — founder speaking (from Downloads\images (1).jpg)
+  students.jpg      — pupils at assembly (from Downloads\images (2).jpg)
+  school-bus.jpg    — CPF school bus (from Downloads\images (3).jpg)
+
+You can delete this note file at any time — it is not used by the website.

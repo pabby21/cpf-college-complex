@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CPF College Complex — We Compete with Excellence | Accra &amp; Koforidua</title>
+  <meta name="description" content="CPF College Complex is a private basic school in Accra and Koforidua, Ghana, offering Pre-School, Primary and JHS education with a unique blend of the Ghanaian and British curricula." />
+  <link rel="icon" type="image/png" href="assets/crest.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="brand" id="brandLogo"></a>
+      <nav class="nav-links" id="navLinks" aria-label="Main navigation"></nav>
+      <div class="nav-actions">
+        <a href="#admissions" class="btn btn-gold btn-sm nav-cta" id="navCta">Enroll Now</a>
+        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <div class="mobile-menu" id="mobileMenu"></div>
+
+  <main>
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <span class="hero-badge" id="heroBadge"></span>
+          <h1 class="hero-title" id="heroTitle"></h1>
+          <p class="hero-sub" id="heroSub"></p>
+          <div class="hero-btns" id="heroBtns"></div>
+        </div>
+        <div class="hero-stats glass" id="heroStats"></div>
+      </div>
+      <a href="#about" class="scroll-hint" aria-label="Scroll down">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+      </a>
+    </section>
+
+    <!-- ================= MARQUEE ================= -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track" id="tickerTrack"></div>
+    </div>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="about-media reveal">
+          <img class="about-main-img" id="aboutMainImg" src="" alt="CPF College Complex school bus" />
+          <div class="about-float">
+            <img id="aboutFloatImg" src="" alt="Pupils of CPF College Complex" />
+            <span class="about-float-badge" id="aboutFloatBadge"></span>
+          </div>
+        </div>
+        <div class="about-text">
+          <span class="section-tag reveal">About Us</span>
+          <h2 class="section-title reveal" id="aboutHeading"></h2>
+          <div id="aboutParagraphs"></div>
+          <ul class="check-list" id="aboutChecklist"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ACADEMICS ================= -->
+    <section class="section section-alt" id="academics">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag reveal">Academics</span>
+          <h2 class="section-title reveal" id="academicsHeading"></h2>
+          <p class="section-sub reveal" id="academicsSub"></p>
+        </div>
+        <div class="curriculum-banner reveal" id="curriculumBanner"></div>
+        <div class="cards-grid three" id="programCards"></div>
+      </div>
+    </section>
+
+    <!-- ================= WHY CPF ================= -->
+    <section class="section" id="why">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag reveal">Why CPF</span>
+          <h2 class="section-title reveal" id="whyHeading"></h2>
+          <p class="section-sub reveal" id="whySub"></p>
+        </div>
+        <div class="cards-grid three" id="featureCards"></div>
+      </div>
+    </section>
+
+    <!-- ================= PROPRIETOR ================= -->
+    <section class="section section-alt" id="proprietor">
+      <div class="container proprietor-wrap">
+        <div class="proprietor-photo reveal">
+          <img id="proprietorImg" src="" alt="Proprietor of CPF College Complex" />
+          <div class="photo-frame"></div>
+        </div>
+        <div class="proprietor-quote">
+          <svg class="quote-mark" viewBox="0 0 24 24" width="48" height="48" fill="currentColor"><path d="M9.6 4C6 6.4 3.6 10 3.6 14.2 3.6 17.4 5.6 20 8.6 20c2.5 0 4.4-1.9 4.4-4.3 0-2.3-1.7-4-4-4-.4 0-.9.1-1 .1.3-2.3 2.4-4.9 4.5-6.2L9.6 4zm10 0C16 6.4 13.6 10 13.6 14.2c0 3.2 2 5.8 5 5.8 2.5 0 4.4-1.9 4.4-4.3 0-2.3-1.7-4-4-4-.4 0-.9.1-1 .1.3-2.3 2.4-4.9 4.5-6.2L19.6 4z"/></svg>
+          <p class="quote-text reveal" id="proprietorMessage"></p>
+          <div class="quote-author reveal">
+            <strong id="proprietorName"></strong>
+            <span id="proprietorTitle"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= GALLERY ================= -->
+    <section class="section" id="gallery">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag reveal">Gallery</span>
+          <h2 class="section-title reveal" id="galleryHeading"></h2>
+          <p class="section-sub reveal" id="gallerySub"></p>
+        </div>
+        <div class="gallery-grid" id="galleryGrid"></div>
+      </div>
+    </section>
+
+    <!-- ================= ADMISSIONS ================= -->
+    <section class="section admissions" id="admissions">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag reveal">Admissions</span>
+          <h2 class="section-title reveal" id="admissionsHeading"></h2>
+          <p class="section-sub reveal" id="admissionsSub"></p>
+        </div>
+        <div class="steps-grid" id="stepsGrid"></div>
+        <div class="admissions-cta reveal">
+          <a class="btn btn-gold btn-lg" id="admissionsCta" href="#">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.5 14.1c-.2.7-1.3 1.3-1.8 1.3-.5.1-1 .2-3.3-.7-2.8-1.1-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.4l.9 2.1c.1.2.1.4 0 .6l-.4.6-.5.5c-.2.2-.3.4-.1.7.2.3.8 1.4 1.8 2.2 1.3 1.1 2.3 1.5 2.7 1.6.3.2.5.1.7-.1l1-1.1c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.6.4 0 .1 0 .7-.3 1.3z"/></svg>
+            <span id="admissionsCtaLabel"></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= REPORTS PORTAL ================= -->
+    <section class="section section-tight" id="reports" style="display:none;">
+      <div class="container">
+        <div class="reports-band reveal" id="reportsBand"></div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag reveal">Contact</span>
+          <h2 class="section-title reveal">Get in Touch</h2>
+          <p class="section-sub reveal">We would love to hear from you — visit any of our campuses or reach us instantly on WhatsApp.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-cards" id="contactCards"></div>
+          <div class="contact-form-wrap reveal">
+            <h3>Send a Quick Message</h3>
+            <p class="form-hint">This opens WhatsApp with your message ready to send.</p>
+            <form id="whatsappForm">
+              <input type="text" id="wfName" placeholder="Your name" required />
+              <input type="text" id="wfSubject" placeholder="Subject (e.g. Admission enquiry)" required />
+              <textarea id="wfMessage" rows="4" placeholder="Your message…" required></textarea>
+              <button type="submit" class="btn btn-navy btn-full">Send via WhatsApp</button>
+            </form>
+          </div>
+        </div>
+        <div class="map-wrap reveal" id="mapWrap"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="brand" id="footerLogo"></a>
+        <p id="footerBlurb"></p>
+        <div class="socials" id="socials"></div>
+      </div>
+      <div class="footer-col">
+        <h4 id="footerLinksLabel"></h4>
+        <ul id="footerLinks"></ul>
+      </div>
+      <div class="footer-col">
+        <h4 id="footerContactLabel"></h4>
+        <ul id="footerContact"></ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <span id="footerCopy"></span>
+        <span id="footerDev"></span>
+        <span id="footerDevContact"></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+    <button class="lightbox-nav prev" id="lightboxPrev" aria-label="Previous photo">&#10094;</button>
+    <figure>
+      <img id="lightboxImg" src="" alt="" />
+      <figcaption id="lightboxCaption"></figcaption>
+    </figure>
+    <button class="lightbox-nav next" id="lightboxNext" aria-label="Next photo">&#10095;</button>
+  </div>
+
+  <!-- Floating WhatsApp button -->
+  <a class="whatsapp-float" id="whatsappFloat" target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp">
+    <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.5 14.1c-.2.7-1.3 1.3-1.8 1.3-.5.1-1 .2-3.3-.7-2.8-1.1-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.4l.9 2.1c.1.2.1.4 0 .6l-.4.6-.5.5c-.2.2-.3.4-.1.7.2.3.8 1.4 1.8 2.2 1.3 1.1 2.3 1.5 2.7 1.6.3.2.5.1.7-.1l1-1.1c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.6.4 0 .1 0 .7-.3 1.3z"/></svg>
+  </a>
+
+  <noscript>
+    <p style="padding:2rem;text-align:center;font-family:sans-serif">Please enable JavaScript to view the CPF College Complex website.</p>
+  </noscript>
+
+  <!-- Content file — edit THIS to change the website -->
+  <script src="js/data.js"></script>
+  <!-- Rendering & interactions -->
+  <script src="js/main.js"></script>
+</body>
+</html>
